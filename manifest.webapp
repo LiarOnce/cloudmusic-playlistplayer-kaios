@@ -1,7 +1,7 @@
 {
     "version": "0.1.0",
     "name": "CloudMusic",
-    "description": "A template with the bare minimum structure",
+    "description": "Netease CloudMusic playlist player for KaiOS",
     "launch_path": "/index.html",
     "icons": {
         "16": "/img/icons/icon16x16.png",
