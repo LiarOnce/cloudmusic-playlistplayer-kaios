@@ -1,0 +1,9 @@
+.aplayer .aplayer-icon {
+    display: none !important;
+}
+.aplayer .aplayer-info .aplayer-controller .aplayer-bar-wrap {
+    display: none;
+}
+.aplayer-list {
+    max-height: 210px !important;
+}
