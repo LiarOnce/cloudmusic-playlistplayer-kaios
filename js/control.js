@@ -1,23 +1,26 @@
 const volume = navigator.volumeManager;
-const ap = aplayers;
-
+const api = document.querySelector('meting-js');
 //Taken from KaiOS Tech docs :)
 function handleKeyDown(evt) {
   switch (evt.key) {
     case 'SoftLeft':
       volume.requestShow();
       break;
-    // case 'SoftRight':
-    //   volume.requestUp();
-    //   break;
+    case 'SoftRight':
+      console.log('Right');
+      api.aplayer.toggle();
+      break;
     case '1':
-      ap.skipBack();
+      console.log('Back');
+      api.aplayer.skipBack();
       break;
     case '3':
-      ap.skipForward();
+      console.log('Forward');
+      api.aplayer.skipForward();
       break;
     case '5':
-      ap.toggle();
+      console.log('Toggle');
+      api.aplayer.toggle();
       break;
 
       /* case 'Call':
