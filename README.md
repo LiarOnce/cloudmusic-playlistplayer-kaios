@@ -1,6 +1,15 @@
 # cloudmusic-playlistplayer-kaios
 Netease CloudMusic playlist player for KaiOS
 
+# 控制
+
+|  键位   |   功能    |
+| :-----: | :-------: |
+|  左键   |   音量    |
+| 右键、5 | 播放/暂停 |
+|    1    |  上一首   |
+|3|下一首|
+
 # Credit
 
  - [APlayer](https://github.com/MoePlayer/APlayer)
